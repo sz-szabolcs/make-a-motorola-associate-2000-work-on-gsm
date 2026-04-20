@@ -11,7 +11,7 @@
 ## External components:
   - ESP32-S3-Zero module - fits inside the CCCN4052A handpiece and has a lots of GPIO's
   - SIM800L module - also fits and works well with the CCCN4052A handpiece's original speaker and mic
-  - PCF8574 - used as a serial to paraller port to drive the original display (S-8093A)
+  - PCF8574 - used as a serial to parallel port to drive the original display (S-8093A)
 
 ## Display:
   For pinout, see 'HeaderPinout_S-8093A' and 'CCCN4052A_modify_data_bus'. The four 10K resistors marked with red dots
