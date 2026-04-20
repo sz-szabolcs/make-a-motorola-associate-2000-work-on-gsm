@@ -1,0 +1,24 @@
+SoC: Generic ESP32S3
+GSM: SIM800L
+
+HD44780 parallel to serial:
+
+I2C_BUS0_PCF8574_SCL - GPIO9
+I2C_BUS0_PCF8574_SDA - GPIO8
+
+Keypad:
+col1 - GPIO7, keys: 1, 4, 7, *, CL
+col2 - GPIO10, keys: 2, 5, 8, 0, A, MR
+col3 - GPIO11, keys: 3, 6, 9, #, HF, UP
+
+row1 - GPIO12, keys: 1, 2, 3
+row2 - GPIO13, keys: 4, 5, 6
+row3 - GPIO6, keys: 7, 8, 9
+row4 - GPIO5, keys: *, 0, #
+row5 - GPIO4, keys: CL, A, HF
+row6 - GPIO3, keys: MR, UP
+
+SIM800L:
+TX - GPIO1
+RX - GPIO2
+RING (active low) - GPIO17
