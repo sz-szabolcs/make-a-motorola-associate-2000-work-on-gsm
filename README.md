@@ -29,6 +29,6 @@
   It wont tolerate 5V, the marked 9.5V and common GND on 'CCCN4052A_pin_functions' are ideal to supply a generic
   7805, I dropped the output with a diode and it works well.
 
-## Keypad, LCD backlight, ON/OFF key are managed from the original system, I did not touch that and the head unit. The head unit powers 
-  the system. I re-hydrated the cells of the original lead-acid battery and it also works for a few hours!
+## Keypad, LCD backlight, ON/OFF key are managed from the original system, I did not touch that and the head unit. The head unit powers the system. I re-hydrated the cells of the original lead-acid battery and it also works for a few hours!
+
 ![CCCN4052A_working_boot.jpg](https://github.com/sz-szabolcs/make-a-motorola-associate-2000-work-on-gsm/blob/main/IMAGES_FINISHED/CCCN4052A_working_boot.jpg)
